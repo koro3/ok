@@ -1,0 +1,37 @@
+#trailimageid 
+{
+	Z-INDEX: 1000;
+	LEFT: 0px;
+	VISIBILITY: hidden;
+	POSITION: absolute;
+	TOP: 0px;
+}
+	
+
+.quickviewbox 
+{
+	Z-INDEX: 18;
+	WIDTH: 18px;
+	POSITION: absolute;
+	HEIGHT: 18px;
+	cursor: pointer;
+}
+/*
+.enl_img
+{
+	background-color: #fff;
+	min-width: 25px;
+	min-height: 25px;
+}
+*/
+.enl_img IMG
+{
+	background: white;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+.quickviewbox IMG.lrg_ico, .thumbbox IMG.preview
+{
+	border-width: 0px;
+}
